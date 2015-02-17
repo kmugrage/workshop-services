@@ -1,6 +1,6 @@
 <?php
 
-require_once("lib/math_library.php");
+require_once("site/lib/math_library.php");
 
 class MathTest extends \PHPUnit_Framework_TestCase
 {

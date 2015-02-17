@@ -1,5 +1,5 @@
 <?php
-require_once 'lib/hello_library.php';
+require_once 'site/lib/hello_library.php';
 
 class StubTest extends \PHPUnit_Framework_TestCase
 {

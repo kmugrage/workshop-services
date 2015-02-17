@@ -1,6 +1,6 @@
 <?php
 
-require_once("lib/hello_library.php");
+require_once("site/lib/hello_library.php");
 
 class HelloTest extends \PHPUnit_Framework_TestCase
 {
