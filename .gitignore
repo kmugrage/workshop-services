@@ -1,2 +1,3 @@
 tests/logfile.xml
 .project
+*.iml
