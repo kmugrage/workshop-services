@@ -21,6 +21,12 @@ class MathTest extends \PHPUnit_Framework_TestCase
 		
 		$this->assertEquals(0, $a->subtractStuff(2, 2));
 	}
+	
+	public function testMultiplication()
+	{
+	    $a = new BasicMath();
+	    $this->assertEquals(6, $a->multiplyStuff(2, 3));
+	}
 
     // ...
 }

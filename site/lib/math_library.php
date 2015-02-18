@@ -10,6 +10,10 @@ class BasicMath {
 		return $a - $b;
 	}
 	
+	function multiplyStuff($a, $b) {
+	    return $a * $b;
+	}
+	
 }
 
 ?>
