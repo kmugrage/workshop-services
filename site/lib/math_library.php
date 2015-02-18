@@ -14,5 +14,9 @@ class BasicMath {
 	    return $a * $b;
 	}
 	
+	function divideStuff($a, $b) {
+	    return $a / $b;
+	}
+	
 }
 ?>

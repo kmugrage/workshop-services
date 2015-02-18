@@ -27,6 +27,12 @@ class MathTest extends \PHPUnit_Framework_TestCase
 	    $a = new BasicMath();
 	    $this->assertEquals(6, $a->multiplyStuff(2, 3));
 	}
+	
+	public function testDivision()
+	{
+	    $a = new BasicMath();
+	    $this->assertEquals(2, $a->divideStuff(6, 3));
+	}
 
     // ...
 }
