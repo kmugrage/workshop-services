@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker run --name web-services -d -v $PWD:/var/www/html kmugrage/docker-apache /usr/sbin/apache2ctl -D FOREGROUND
+docker run --rm -it -v=$PWD:/var/www/html -w=/var/www/html kmugrage/workshop-services phpunit
