@@ -1,8 +1,7 @@
 task	:build
 
 task	:unit_test do
-  phpunit = "phpunit --configuration phpunit.xml"
-  sh "#{phpunit}"
+  sh "./run_docker.sh"
 end
 
 task	:package
