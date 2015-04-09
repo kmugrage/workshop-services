@@ -3,7 +3,7 @@
     require_once("lib/math_library.php");
 ?>
 
-<p>Hello There</p>
+<p>Hello There Webinar</p>
 <?php
     $helloThere = new HelloWorld();
     $helloThere->sayHi();
