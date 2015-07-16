@@ -23,9 +23,5 @@ $file = file_get_contents($server, false, $context);
 $response = xmlrpc_decode($file);
 //display the response
 echo $response;
-?>
-<pre>
-
-</pre>
 
 
